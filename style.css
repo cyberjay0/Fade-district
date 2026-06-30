@@ -412,7 +412,10 @@ img {
     padding-top: calc(var(--header-height-normal) + 40px);
     display: flex;
     align-items: center;
-    background-color: var(--color-bg-deep);
+    background-image: linear-gradient(to right, rgba(7, 7, 8, 0.96) 20%, rgba(7, 7, 8, 0.8) 55%, rgba(7, 7, 8, 0.4) 100%), url('assets/images/hero_barber.png');
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
     overflow: hidden;
 }
 
@@ -568,9 +571,7 @@ img {
 
 /* Google Review Card */
 .google-review-card {
-    position: absolute;
-    bottom: 30px;
-    right: -24px;
+    position: relative;
     background-color: var(--color-bg-dark);
     border: 1px solid var(--color-border);
     border-radius: var(--border-radius-md);
@@ -581,6 +582,9 @@ img {
     align-items: center;
     box-shadow: var(--box-shadow-gold);
     animation: floating-review 4s ease-in-out infinite;
+    margin-left: auto;
+    margin-right: 20px;
+    width: max-content;
 }
 
 .review-score {
@@ -1767,9 +1771,14 @@ img {
     }
     
     /* Hero */
+    .hero-section {
+        background-image: linear-gradient(180deg, rgba(7, 7, 8, 0.82) 0%, rgba(7, 7, 8, 0.94) 100%), url('assets/images/hero_barber.png');
+        background-position: center;
+    }
+
     .hero-container {
         grid-template-columns: 1fr;
-        gap: 60px;
+        gap: 40px;
         text-align: center;
         padding-top: 40px;
     }
@@ -1783,11 +1792,17 @@ img {
     }
 
     .hero-image-area {
-        grid-row: 1;
+        grid-row: auto;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
     }
 
-    .hero-image {
-        height: 420px;
+    .google-review-card {
+        margin: 0 auto;
+        right: auto;
+        bottom: auto;
     }
 
     /* Services */
