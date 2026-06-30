@@ -1126,42 +1126,32 @@ img {
     overflow: hidden;
 }
 
-.map-header {
+.map-section-header {
     text-align: center;
-    padding: 60px 24px 40px 24px;
+    padding: 70px 24px 45px 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 16px;
     background-color: var(--color-bg-deep);
 }
 
-.map-subtitle {
+.map-section-tagline {
     font-family: var(--font-heading);
-    color: var(--color-gold);
     font-size: 12px;
     font-weight: 700;
-    letter-spacing: 0.25em;
-    margin-bottom: 12px;
+    letter-spacing: 0.22em;
+    color: var(--color-gold);
     text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    gap: 15px;
+    display: block;
 }
 
-.map-subtitle::before, .map-subtitle::after {
-    content: '';
-    display: inline-block;
-    width: 30px;
-    height: 1px;
-    background-color: var(--color-gold);
-}
-
-.map-title {
+.map-section-title {
     font-family: var(--font-heading);
-    font-size: clamp(20px, 4vw, 28px);
+    font-size: clamp(22px, 4vw, 30px);
     font-weight: 700;
     color: var(--color-text-light);
-    max-width: 600px;
+    max-width: 580px;
     line-height: 1.3;
 }
 
