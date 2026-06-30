@@ -1152,10 +1152,12 @@ img {
     font-size: clamp(32px, 5vw, 52px);
     font-weight: 400;
     font-style: italic;
-    color: var(--color-text-light);
+    color: var(--color-gold);
     max-width: 700px;
     line-height: 1.2;
     letter-spacing: -0.01em;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .map-container iframe {
