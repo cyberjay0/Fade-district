@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fade District Barbers: London's premium barbershop. Specializing in skin fades, beard trims, and luxury grooming services. Book your experience online.">
+    <title>Fade District Barbers | Premium Barbershop London</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syne:wght@700;800&family=Satisfy&display=swap" rel="stylesheet">
+    <!--Main Style Sheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--=========================================================================
+         PRELOADER SCREEN
+         =========================================================================-->
+    <div id="preloader" class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">
+                <span class="logo-top">FADE DISTRICT</span>
+                <span class="logo-bottom">BARBERS</span>
+            </div>
+            <div class="preloader-bar">
+                <div class="preloader-progress"></div>
+            </div>
+            <div class="preloader-status">LOADING LUXURY</div>
+        </div>
+    </div>
+
+    <!--=========================================================================
+         HEADER / NAVIGATION
+         =========================================================================-->
+    <header class="main-header" id="header">
+        <div class="header-container">
+            <a href="#home" class="logo">
+                <span class="logo-main">FADE DISTRICT</span>
+                <span class="logo-sub">BARBERS</span>
+            </a>
+            
+            <!--Mobile Menu Trigger-->
+            <button class="mobile-nav-toggle" id="navToggle" aria-label="Toggle Navigation">
+                <span class="toggle-bar"></span>
+                <span class="toggle-bar"></span>
+                <span class="toggle-bar"></span>
+            </button>
+
+            <!--Navigation Links-->
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">HOME</a></li>
+                    <li><a href="#about" class="nav-link">ABOUT</a></li>
+                    <li><a href="#services" class="nav-link">SERVICES</a></li>
+                    <li><a href="#gallery" class="nav-link">GALLERY</a></li>
+                    <li><a href="#reviews" class="nav-link">REVIEWS</a></li>
+                    <li><a href="#contact" class="nav-link">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <!--CTA Header Button-->
+            <div class="header-cta">
+                <button class="btn btn-gold btn-book-trigger">BOOK APPOINTMENT</button>
+            </div>
+        </div>
+    </header>
+
+    <!--=========================================================================
+         HERO SECTION
+         =========================================================================-->
+    <section id="home" class="hero-section">
+        <div class="hero-bg-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content scroll-anim fade-in">
+                <span class="hero-badge">PREMIUM BARBERSHOP IN LONDON</span>
+                <h1 class="hero-title">
+                    MORE THAN A CUT.<br>
+                    <span class="script-font gold-text">It's a lifestyle.</span>
+                </h1>
+                <p class="hero-description">
+                    At Fade District Barbers, we deliver precision cuts, sharp styles, and premium service in a vibe like no other. Walk in. Level up. Leave a legend.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn btn-gold btn-book-trigger">BOOK APPOINTMENT</button>
+                    <a href="#services" class="btn btn-outline">OUR SERVICES</a>
+                </div>
+                
+                <!--Trust Indicators-->
+                <div class="hero-trust-indicators">
+                    <div class="trust-item">
+                        <div class="trust-icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                        </div>
+                        <div class="trust-text">
+                            <strong>EASY BOOKING</strong>
+                            <span>Book online in seconds</span>
+                        </div>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        </div>
+                        <div class="trust-text">
+                            <strong>PREMIUM SERVICE</strong>
+                            <span>Quality you can trust</span>
+                        </div>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        </div>
+                        <div class="trust-text">
+                            <strong>CENTRAL LONDON</strong>
+                            <span>Conveniently located</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Hero Visual Area-->
+            <div class="hero-image-area scroll-anim fade-in-right">
+                <div class="hero-image-wrapper">
+                    <img src="assets/images/hero_barber.png" alt="Barber giving high-end fade haircut in London" class="hero-image">
+                    
+                    <!--Floating Google Review Card-->
+                    <div class="google-review-card">
+                        <div class="review-score">4.9</div>
+                        <div class="review-stars">
+                            ★★★★★
+                        </div>
+                        <div class="review-count">100+ REVIEWS ON GOOGLE</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=========================================================================
+         SERVICES SECTION
+         =========================================================================-->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header scroll-anim fade-in">
+                <div class="header-title-wrapper">
+                    <span class="section-subtitle">WHAT WE DO</span>
+                    <h2 class="section-title">OUR <span class="gold-text">SERVICES</span></h2>
+                </div>
+                <button class="view-all-link btn-book-trigger">VIEW ALL SERVICES &rarr;</button>
+            </div>
+
+            <!--Services Grid with Staggered Animations-->
+            <div class="services-grid">
+                <!--Skin Fade-->
+                <div class="service-card scroll-anim fade-in-up" data-delay="0.1s">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"></circle><circle cx="6" cy="18" r="3"></circle><line x1="9.8" y1="8.2" x2="20" y2="18.4"></line><line x1="9.8" y1="15.8" x2="20" y2="5.6"></line></svg>
+                    </div>
+                    <h3 class="service-name">SKIN FADE</h3>
+                    <p class="service-desc">Precision side blending down to the skin, styled to perfection.</p>
+                    <div class="service-price">From £25</div>
+                </div>
+
+                <!--Beard Trim-->
+                <div class="service-card scroll-anim fade-in-up" data-delay="0.2s">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="M7 10.5c1.667.667 3.333.667 5 0 1.667.667 3.333.667 5 0"></path><path d="M12 11v3"></path><path d="M7.5 14c1.5 2 3 2.5 4.5 2.5s3-.5 4.5-2.5"></path></svg>
+                    </div>
+                    <h3 class="service-name">BEARD TRIM</h3>
+                    <p class="service-desc">Beard reshaping, razor line-up, and nourishing oils treatment.</p>
+                    <div class="service-price">From £15</div>
+                </div>
+
+                <!--Hot Towel Shave-->
+                <div class="service-card scroll-anim fade-in-up" data-delay="0.3s">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="6.5"></line></svg>
+                    </div>
+                    <h3 class="service-name">HOT TOWEL SHAVE</h3>
+                    <p class="service-desc">Traditional straight razor shave with essential oils and hot towels.</p>
+                    <div class="service-price">From £20</div>
+                </div>
+
+                <!--Hair Cut-->
+                <div class="service-card scroll-anim fade-in-up" data-delay="0.4s">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"></path><path d="M5 21V10a7 7 0 0 1 14 0v11"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    </div>
+                    <h3 class="service-name">HAIR CUT</h3>
+                    <p class="service-desc">Standard dry or wash haircut customized to your head shape.</p>
+                    <div class="service-price">From £20</div>
+                </div>
+
+                <!--Kids Cut-->
+                <div class="service-card scroll-anim fade-in-up" data-delay="0.5s">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a5 5 0 0 0-5 5v1a5 5 0 0 0 10 0V7a5 5 0 0 0-5-5z"></path><path d="M18 10a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4"></path><path d="M12 18v4"></path></svg>
+                    </div>
+                    <h3 class="service-name">KIDS CUT</h3>
+                    <p class="service-desc">Professional, gentle styling for young legends under 12.</p>
+                    <div class="service-price">From £15</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=========================================================================
+         ABOUT US SECTION
+         =========================================================================-->
+    <section id="about" class="about-section">
+        <div class="container about-grid">
+            <!--About Images Left-->
+            <div class="about-images-area scroll-anim fade-in">
+                <div class="about-image-main-wrapper">
+                    <img src="assets/images/shop_interior.png" alt="Fade District luxury interior" class="about-img-main">
+                </div>
+                <div class="about-image-sub-wrapper">
+                    <img src="assets/images/barber_working.png" alt="Barber styling hair close-up" class="about-img-sub">
+                </div>
+            </div>
+
+            <!--About Content Right-->
+            <div class="about-content scroll-anim fade-in-right">
+                <span class="section-subtitle">ABOUT US</span>
+                <h2 class="section-title">BUILT ON PASSION.<br><span class="gold-text">FOCUSED ON YOU.</span></h2>
+                <p class="about-description">
+                    Fade District Barbers is more than just a barbershop; it is a destination. We combine skilled craftsmanship, high-end products, and a laid-back atmosphere to give you the best experience every time.
+                </p>
+
+                <!--Value Propositions-->
+                <div class="about-values">
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        </div>
+                        <span class="value-text">EXPERT BARBERS</span>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        </div>
+                        <span class="value-text">PREMIUM PRODUCTS</span>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        </div>
+                        <span class="value-text">TOP RATED SERVICE</span>
+                    </div>
+                </div>
+
+                <button class="btn btn-outline btn-book-trigger">LEARN MORE ABOUT US</button>
+            </div>
+        </div>
+    </section>
+
+    <!--=========================================================================
+         GALLERY SECTION
+         =========================================================================-->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header scroll-anim fade-in">
+                <div class="header-title-wrapper">
+                    <span class="section-subtitle">OUR WORK</span>
+                    <h2 class="section-title">CREATING <span class="gold-text">LEGENDS</span></h2>
+                </div>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="view-all-link">FOLLOW US ON INSTAGRAM &rarr;</a>
+            </div>
+
+            <!--Gallery Slider / Grid-->
+            <div class="gallery-grid">
+                <div class="gallery-item scroll-anim fade-in-up" data-delay="0.1s" data-index="0">
+                    <img src="assets/images/fade1.png" alt="Sharp Skin Fade side view" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">+</span>
+                        <span class="gallery-label">SKIN FADE</span>
+                    </div>
+                </div>
+                <div class="gallery-item scroll-anim fade-in-up" data-delay="0.2s" data-index="1">
+                    <img src="assets/images/fade2.png" alt="Clean Beard Trim and shave lines" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">+</span>
+                        <span class="gallery-label">BEARD TRIM</span>
+                    </div>
+                </div>
+                <div class="gallery-item scroll-anim fade-in-up" data-delay="0.3s" data-index="2">
+                    <img src="assets/images/fade3.png" alt="Textured crop drop fade haircut" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">+</span>
+                        <span class="gallery-label">DROP FADE</span>
+                    </div>
+                </div>
+                <div class="gallery-item scroll-anim fade-in-up" data-delay="0.4s" data-index="3">
+                    <img src="assets/images/fade4.png" alt="Classic Pompadour styling" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">+</span>
+                        <span class="gallery-label">POMPADOUR</span>
+                    </div>
+                </div>
+                <div class="gallery-item scroll-anim fade-in-up" data-delay="0.5s" data-index="4">
+                    <img src="assets/images/fade5.png" alt="Classic Side Part hairstyle" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">+</span>
+                        <span class="gallery-label">SIDE PART</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=========================================================================
+         LIGHTBOX MODAL FOR GALLERY
+         =========================================================================-->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev">&lsaquo;</button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext">&rsaquo;</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImg">
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+        </div>
+    </div>
+
+    <!--=========================================================================
+         REVIEWS SECTION
+         =========================================================================-->
+    <section id="reviews" class="reviews-section">
+        <div class="container review-slider-container scroll-anim fade-in">
+            <div class="quote-icon">“</div>
+            
+            <!--Slider Wrapper-->
+            <div class="review-slider">
+                <!--Slide 1-->
+                <div class="review-slide active">
+                    <p class="review-text">
+                        Best barbers in London hands down! The atmosphere, the service and the attention to detail is unmatched.
+                    </p>
+                    <h4 class="review-author">JORDAN M.</h4>
+                    <div class="review-stars-gold">★★★★★</div>
+                </div>
+
+                <!--Slide 2-->
+                <div class="review-slide">
+                    <p class="review-text">
+                        Been coming to Fade District for six months now. The skin fade is always consistent and razor sharp. Highly recommended.
+                    </p>
+                    <h4 class="review-author">LIAM H.</h4>
+                    <div class="review-stars-gold">★★★★★</div>
+                </div>
+
+                <!--Slide 3-->
+                <div class="review-slide">
+                    <p class="review-text">
+                        Elite service and amazing vibes. Love the hot towel shave, feels extremely relaxing and leaves a clean finish.
+                    </p>
+                    <h4 class="review-author">MARCUS T.</h4>
+                    <div class="review-stars-gold">★★★★★</div>
+                </div>
+            </div>
+
+            <!--Slider Navigation-->
+            <div class="slider-nav">
+                <button class="slider-btn" id="prevSlide" aria-label="Previous Review">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                </button>
+                <div class="slider-dots" id="sliderDots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="slider-btn" id="nextSlide" aria-label="Next Review">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--=========================================================================
+         CONTACT & FOOTER SECTION
+         =========================================================================-->
+    <footer id="contact" class="main-footer">
+        <div class="container footer-grid">
+            <!--Column 1: Brand Info-->
+            <div class="footer-col brand-col scroll-anim fade-in-up">
+                <a href="#home" class="logo">
+                    <span class="logo-main">FADE DISTRICT</span>
+                    <span class="logo-sub">BARBERS</span>
+                </a>
+                <p class="footer-desc">
+                    Premium cuts, elite service and a vibe that keeps you coming back.
+                </p>
+                <div class="social-links">
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                    <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                        <!--Custom TikTok SVG-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg>
+                    </a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!--Column 2: Quick Links-->
+            <div class="footer-col links-col scroll-anim fade-in-up" data-delay="0.1s">
+                <h3 class="footer-heading">QUICK LINKS</h3>
+                <ul class="footer-links-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!--Column 3: Opening Hours-->
+            <div class="footer-col hours-col scroll-anim fade-in-up" data-delay="0.2s">
+                <h3 class="footer-heading">OPENING HOURS</h3>
+                <ul class="hours-list">
+                    <li><span class="day">Monday</span><span class="time">10:00 to 19:00</span></li>
+                    <li><span class="day">Tuesday</span><span class="time">10:00 to 19:00</span></li>
+                    <li><span class="day">Wednesday</span><span class="time">10:00 to 19:00</span></li>
+                    <li><span class="day">Thursday</span><span class="time">10:00 to 20:00</span></li>
+                    <li><span class="day">Friday</span><span class="time">10:00 to 20:00</span></li>
+                    <li><span class="day">Saturday</span><span class="time">09:00 to 18:00</span></li>
+                    <li><span class="day">Sunday</span><span class="time">10:00 to 16:00</span></li>
+                </ul>
+            </div>
+
+            <!--Column 4: Contact Us-->
+            <div class="footer-col contact-col scroll-anim fade-in-up" data-delay="0.3s">
+                <h3 class="footer-heading">CONTACT US</h3>
+                <ul class="contact-list">
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        <span>123 Shoreditch High St, London, E1 6JE</span>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        <span>+44 20 7123 4567</span>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        <span>info@fadedistrictbarbers.co.uk</span>
+                    </li>
+                </ul>
+                <div class="footer-cta-wrapper">
+                    <button class="btn btn-gold btn-book-trigger">BOOK APPOINTMENT</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-flex">
+                <p>&copy; 2025 Fade District Barbers. All rights reserved.</p>
+                <p class="footer-credit">Designed with precision. Built for legends.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--=========================================================================
+         BOOKING MODAL (INTERACTIVE SYSTEM)
+         =========================================================================-->
+    <div id="bookingModal" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                
+                <!--Modal Header-->
+                <div class="modal-header">
+                    <h3 class="modal-title">BOOK AN EXPERIENCE</h3>
+                    <button class="modal-close" id="modalClose">&times;</button>
+                </div>
+
+                <!--Modal Body-->
+                <div class="modal-body">
+                    <!--Steps Tracker-->
+                    <div class="steps-tracker">
+                        <div class="step-dot active" data-step="1">1<span>Service</span></div>
+                        <div class="step-dot" data-step="2">2<span>Barber</span></div>
+                        <div class="step-dot" data-step="3">3<span>Time</span></div>
+                        <div class="step-dot" data-step="4">4<span>Details</span></div>
+                    </div>
+
+                    <!--Step 1: Select Service-->
+                    <div class="booking-step active" id="step-1">
+                        <h4 class="step-title">Select a Grooming Service</h4>
+                        <div class="booking-options-list">
+                            <label class="booking-card">
+                                <input type="radio" name="booking-service" value="SKIN FADE" data-price="£25" checked>
+                                <span class="card-glow"></span>
+                                <span class="booking-card-content">
+                                    <span class="option-name">SKIN FADE</span>
+                                    <span class="option-desc">Precision side blending down to the skin, custom styling.</span>
+                                    <span class="option-price">£25</span>
+                                </span>
+                            </label>
+                            <label class="booking-card">
+                                <input type="radio" name="booking-service" value="BEARD TRIM" data-price="£15">
+                                <span class="card-glow"></span>
+                                <span class="booking-card-content">
+                                    <span class="option-name">BEARD TRIM</span>
+                                    <span class="option-desc">Beard reshaping, razor line-up, and beard oil.</span>
+                                    <span class="option-price">£15</span>
+                                </span>
+                            </label>
+                            <label class="booking-card">
+                                <input type="radio" name="booking-service" value="HOT TOWEL SHAVE" data-price="£20">
+                                <span class="card-glow"></span>
+                                <span class="booking-card-content">
+                                    <span class="option-name">HOT TOWEL SHAVE</span>
+                                    <span class="option-desc">Traditional straight razor shave with essential oils.</span>
+                                    <span class="option-price">£20</span>
+                                </span>
+                            </label>
+                            <label class="booking-card">
+                                <input type="radio" name="booking-service" value="HAIR CUT" data-price="£20">
+                                <span class="card-glow"></span>
+                                <span class="booking-card-content">
+                                    <span class="option-name">HAIR CUT</span>
+                                    <span class="option-desc">Standard customized haircut and styling.</span>
+                                    <span class="option-price">£20</span>
+                                </span>
+                            </label>
+                            <label class="booking-card">
+                                <input type="radio" name="booking-service" value="KIDS CUT" data-price="£15">
+                                <span class="card-glow"></span>
+                                <span class="booking-card-content">
+                                    <span class="option-name">KIDS CUT</span>
+                                    <span class="option-desc">Professional kids haircut for young legends under 12.</span>
+                                    <span class="option-price">£15</span>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!--Step 2: Select Barber-->
+                    <div class="booking-step" id="step-2">
+                        <h4 class="step-title">Select a Professional Barber</h4>
+                        <div class="booking-options-list">
+                            <label class="booking-card">
+                                <input type="radio" name="booking-barber" value="JORDAN M." checked>
+                                <span class="card-glow"></span>
+                                <span class="booking-card-content">
+                                    <span class="option-name">JORDAN M.</span>
+                                    <span class="option-desc">Master barber specializing in fades and hair design.</span>
+                                </span>
+                            </label>
+                            <label class="booking-card">
+                                <input type="radio" name="booking-barber" value="MARCUS K.">
+                                <span class="card-glow"></span>
+                                <span class="booking-card-content">
+                                    <span class="option-name">MARCUS K.</span>
+                                    <span class="option-desc">Beard specialist and classic hot towel shaver.</span>
+                                </span>
+                            </label>
+                            <label class="booking-card">
+                                <input type="radio" name="booking-barber" value="SARAH L.">
+                                <span class="card-glow"></span>
+                                <span class="booking-card-content">
+                                    <span class="option-name">SARAH L.</span>
+                                    <span class="option-desc">Creative stylist skilled in scissor work and modern cuts.</span>
+                                </span>
+                            </label>
+                            <label class="booking-card">
+                                <input type="radio" name="booking-barber" value="ANY BARBER">
+                                <span class="card-glow"></span>
+                                <span class="booking-card-content">
+                                    <span class="option-name">ANY BARBER</span>
+                                    <span class="option-desc">Select the first available skilled specialist.</span>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!--Step 3: Date & Time-->
+                    <div class="booking-step" id="step-3">
+                        <h4 class="step-title">Select Date & Time</h4>
+                        <div class="datetime-container">
+                            <label class="dt-label">Choose Date</label>
+                            <div class="date-scroll-grid" id="dateScrollGrid">
+                                <!--Generated Dynamically by JS-->
+                            </div>
+                            
+                            <label class="dt-label">Choose Time</label>
+                            <div class="time-slots-grid" id="timeSlotsGrid">
+                                <!--Generated Dynamically by JS-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Step 4: Personal Details-->
+                    <div class="booking-step" id="step-4">
+                        <h4 class="step-title">Confirm Details</h4>
+                        <form id="detailsForm" class="details-form">
+                            <div class="form-group">
+                                <label for="cust-name">Full Name</label>
+                                <input type="text" id="cust-name" required placeholder="Enter your full name">
+                            </div>
+                            <div class="form-group">
+                                <label for="cust-email">Email Address</label>
+                                <input type="email" id="cust-email" required placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="cust-phone">Phone Number</label>
+                                <input type="tel" id="cust-phone" required placeholder="e.g. 07123 456789">
+                            </div>
+                            <div class="form-group">
+                                <label for="cust-notes">Special Requests (Optional)</label>
+                                <textarea id="cust-notes" placeholder="e.g. specific styling products or preferences"></textarea>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!--Step 5: Success Screen-->
+                    <div class="booking-step" id="step-5">
+                        <div class="success-screen">
+                            <div class="success-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                            </div>
+                            <h4 class="success-title">BOOKING CONFIRMED!</h4>
+                            <p class="success-message">Your appointment has been successfully scheduled. We look forward to seeing you!</p>
+                            
+                            <div class="booking-receipt" id="bookingReceipt">
+                                <!--Dynamically filled receipt details-->
+                            </div>
+
+                            <button class="btn btn-gold btn-block" id="btnFinish">CLOSE WINDOW</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Modal Footer-->
+                <div class="modal-footer" id="modalFooterControls">
+                    <button class="btn btn-outline" id="btnPrev" disabled>BACK</button>
+                    <button class="btn btn-gold" id="btnNext">CONTINUE</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Main JavaScript-->
+    <script src="app.js"></script>
+</body>
+</html>
